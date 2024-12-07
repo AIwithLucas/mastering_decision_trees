@@ -1,3 +1,5 @@
+# 1 Decision Tree Classifier Learnings
+
 #### 1. Analyzing missing data in features help to provide better understanding of loan-related application process
 
     - eg: Why there are 8505 missing values in joint_account application because most people are applying individually
@@ -30,3 +32,20 @@
 ##### 4. Feature importance technique
 
       - after resampling data, need to consider techniques on finding feature importance, especially if a lot of features involved
+
+# 2 Decision Tree Regressor Learnings
+
+       Prediction Outcomes:
+       - Will only have groups of predicted values
+       eg:
+
+            52.07387096774194,
+            73.44415254237288,
+            88.10335766423357,
+            107.4423163841808,
+            121.33392857142857,
+            139.9335294117647,
+            158.26336283185842,
+            180.71446808510638
+
+      Any data value out of this range of values cannot be predicted accurately
