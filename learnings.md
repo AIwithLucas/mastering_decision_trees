@@ -26,3 +26,7 @@
   ###### 3. Assign weights
 
         - Assign higher weights to minority classes during model training
+
+##### 4. Feature importance technique
+
+      - after resampling data, need to consider techniques on finding feature importance, especially if a lot of features involved
